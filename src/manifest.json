@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Love1v-pro",
+    "short_name": "Love1v-pro",
+    "version": "1.0",
+    "description": "Расширение для ВК игры \"Любовь\"",
+    "author": "Zakovskiy",
+    "icons": {
+        "16": "icon/16.png",
+        "48": "icon/48.png",
+        "128": "icon/128.png"
+    },
+    "applications": {
+        "gecko": {
+            "id": "{08dd973b-1419-45df-b312-6e3493c4ff90}"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://igra.love/web/index.php*"],
+            "all_frames": true,
+            "js": ["jquery-3.6.0.min.js", "content.js"],
+            "css": []
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}
