@@ -3,8 +3,6 @@ Extension for https://vk.com/love1v
 
 Вспомогательное расширение для игры Любовь.
 
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white)](https://discord.gg/awMSyU2gSj) ![Online](https://img.shields.io/discord/924021673626333204)
-
 ![Mozilla Add-on](https://img.shields.io/amo/v/love1v-pro)
 ![Mozilla Add-on](https://img.shields.io/amo/users/love1v-pro)
 ![Mozilla Add-on](https://img.shields.io/amo/rating/love1v-pro)
